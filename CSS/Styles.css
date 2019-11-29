@@ -1,0 +1,98 @@
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%; /** RESET PARA REMS = 10px de 16px **/
+                        /** Por defecto un rem son 16px **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }     
+
+/** Esto va a ser para todo el cuerpo de la pagina **/
+
+body
+{
+    background: #fff2f2;
+    font-family: 'Lato', sans-serif; /** Tipo de fuente tomada de las opciones de google**/
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/*Globales*/ 
+img{
+    max-width: 100%;
+}
+.contenedor
+{
+    width: 95%;
+    max-width: 120rem; /** = a 1200px **/
+    margin: 0 auto 0 auto;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Utilidades */
+
+
+
+/*    INDEX    */
+.barra-header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+}
+.barra-header a{
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #d35158;
+    font-family: 'Lobster', cursive;
+    font-size: 2.6rem;
+}
+.barra-header a:hover{
+    color: #d35158;
+    text-shadow: 1px 1px 1px #fff2f2;
+    cursor: pointer; 
+}
+.site-header{
+    background-image: url(../Img/destacada.jpg);
+    background-position: center center; 
+    background-size: cover;
+    height: 100vh;
+    min-height: 65.7rem; /** = a 600px **/
+}
+.contenido-header
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.titulos{
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.6rem;
+    color: #D51D1D;
+}
