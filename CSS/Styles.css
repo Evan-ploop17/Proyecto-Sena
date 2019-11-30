@@ -96,3 +96,62 @@ a{
     font-size: 4.6rem;
     color: #D51D1D;
 }
+.inmuebles{
+    width: 100%;
+    border: 1px solid #C6C5C5;
+    /* padding: 5px 0 10px 5px ; */
+    margin: 20px 0;
+}
+.inmuebles blockquote{
+    font-family: 'Salsa', cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 20px 0 10px 10px;
+}
+.inmuebles:last-of-type{
+    margin-bottom: 0;
+}
+/* .inmuebles img{
+    width: 50%;
+    margin: 0 auto;
+} */
+
+.flex{
+    display: flex;
+}
+.inmuebles-iz{
+    width: calc(50% - 1rem);
+    padding: 0px 10px;
+}
+.inmuebles-der{
+    width: calc(50% - 1rem);
+    padding: 0px 10px;
+}
+.inmuebles-der p{
+    margin-top: 0;
+}
+
+.site-footer
+{
+    background-color: #333333;
+    margin: 0;
+}
+
+.barra-footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+}
+.barra-footer a{
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px blanchedalmond;
+    font-size: 2.6rem;
+}
+.barra-footer a:hover{
+    color: #d35158;
+    text-shadow: 1px 1px 1px #fff2f2;
+    cursor: pointer; 
+}
