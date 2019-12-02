@@ -12,12 +12,20 @@ html
 
 body
 {
-    background: #fff2f2;
+    background: #ffffff;
+    /* background: #eae2e0; */
     font-family: 'Lato', sans-serif; /** Tipo de fuente tomada de las opciones de google**/
     font-size: 1.6rem;
     line-height: 2;
 }
 
+/* Colores del logo*/
+.colores{
+    color: #f03b35;
+    color: #040404;
+    color: #eae2e0;
+    color: #571c1b;
+}
 
 /*Globales*/ 
 img{
@@ -52,6 +60,27 @@ a{
 
 /* Utilidades */
 
+.centrar-texto
+{
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    flex: 0 0 auto; 
+    padding: 8px 13px;
+}
+.boton:hover
+{
+    cursor: pointer;
+}
+.boton-negro{
+    background-color: #040404;
+}
+.boton-rojo{
+    background: #f03b35;
+    
+}
 
 
 /*    INDEX    */
@@ -154,4 +183,54 @@ a{
     color: #d35158;
     text-shadow: 1px 1px 1px #fff2f2;
     cursor: pointer; 
+}
+
+/* CREAR SESION   */
+
+.formulario{
+    color: #333333;
+    /* background-color: #F7F1F1; */
+}
+.formulario legend{
+    font-family: 'salsa' 'cursive';
+    font-size: 2.5rem;
+}
+.formulario a{
+    display: flex;
+}
+
+.contenido-centrado
+{
+    max-width: 800px;
+}
+
+legend{
+    font-size: 2.4rem;
+}
+
+label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input:not([type="submit"]),
+textarea,
+select /* a mi me funciona solo con esto*/
+{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="submit"]{
+    margin: 20px 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #d35158;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
 }
