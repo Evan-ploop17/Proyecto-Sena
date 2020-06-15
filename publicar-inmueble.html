@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Pacifico&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Salsa&display=swap" rel="stylesheet">
+    <title>Publicar Inmueble</title>
+</head>
+
+<body>
+
+    <header class="site-header contenido-header">
+
+        <div class="contenedor">
+
+            <nav class="barra-header">
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="PublicarInmueble.html">Publicar Inmueble</a>
+                <a href="IniciarSesion.html">Iniciar Sesion</a>
+            </nav>
+
+            <div>
+                <a href="index.html">
+                    <img src="Img/bke-transparente.png" alt="Logo Rawe">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-centrado">
+
+        <h2 class="fw-300 centrar-texto">Diligencia la informacion de tu Inmueble</h2>
+
+        <form action="" class="formulario">
+
+            <fieldset>
+                <!-- agrupar campos que esten relacionados -->
+
+                <legend>Información Inmueble</legend>
+
+                <label for="nombre"> Nombre:  </label>
+                <input type="text" name="" id="nombre" placeholder="Mi Vivienda">
+
+                <label for="Propietario">Propietario </label>
+                <input type="text" name="" id="Propietario" placeholder="Tu nombre" required>
+
+                <label for="Ubicacion"> Ubicacion </label>
+                <input type="text" id="Ubicacion" placeholder="Direccion de inmueble" required>
+
+                <label for="Costo"> Costo </label>
+                <input type="text" id="Costo" placeholder="Valor por noche" required>
+
+                <label for="Baños"> Baños </label>
+                <input type="number" id="Baños" placeholder="# de baños" required>
+
+                <label for="plantas"> Plantas </label>
+                <input type="number" id="Plantas" placeholder="# de Plantas(pisos)" required>
+
+                <label for="Habitaciones"> Habitaciones </label>
+                <input type="number" id="Habitaciones" placeholder="# de habitaciones" required>
+
+                <label for="Balcon"> Balcón </label>
+                <input type="checkbox" id="Balcón" placeholder="posee balcon" required>
+
+            </fieldset>
+
+            <input type="submit" value="Registrar" name="" id="" class="boton boton-rojo">
+        </form>
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="contenedor">
+            <nav class="barra-header">
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="PublicarInmueble.html">Publicar Inmueble</a>
+                <a href="IniciarSesion.html">Iniciar Sesion</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
